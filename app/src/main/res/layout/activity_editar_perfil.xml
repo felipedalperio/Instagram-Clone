@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_editar_perfil"
+    android:orientation="vertical"
+    tools:context=".activity.EditarPerfilActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imagePerfil"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/avatar"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textAlterarFoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Alterar foto"
+            android:textColor="#462759"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progressBarEditar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editNomePerfil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_perfil_preto_24dp"
+                android:drawablePadding="5dp"
+                android:drawableTint="@android:color/darker_gray"
+                android:hint="Nome usuário" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editEmailPefil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:drawablePadding="5dp"
+                android:drawableTint="@android:color/darker_gray"
+                android:hint="Email" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/buttonSalvarAlteracoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/botao_editar_perfil"
+            android:text="Salvar Alterações"
+            android:textColor="#462759" />
+
+    </LinearLayout>
+
+</LinearLayout>

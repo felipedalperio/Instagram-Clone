@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "788555754988",
+    "firebase_url": "https://instagram-960e0.firebaseio.com",
+    "project_id": "instagram-960e0",
+    "storage_bucket": "instagram-960e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788555754988:android:3564f01c1470a367f864c9",
+        "android_client_info": {
+          "package_name": "my.nova.instagram5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788555754988-9kapvjoj390959053rknegcet16bbjs4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "my.nova.instagram5",
+            "certificate_hash": "5bac718659e938538cf95332144f8451f5340957"
+          }
+        },
+        {
+          "client_id": "788555754988-mmrmi8f9bue78hkqbvdts43dfbsq6cdt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW7i5knZHXTgjkvPQyfZnNzflKNvznf_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788555754988-mmrmi8f9bue78hkqbvdts43dfbsq6cdt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
