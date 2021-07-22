@@ -1,5 +1,8 @@
 # Instagram Clone
-Instagram Clone para os dispositivos android feito em Java.
+Instagram Clone para os dispositivos android.</br>
+
+Linguagem usada : <b>Java</b> <br/>
+Banco de dados usado : <b>Firebase</b>
 
 # Feed:
 <p>Você só ira conseguir ver postagens no feed de quem você está seguindo:</p>
